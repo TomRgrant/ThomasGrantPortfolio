@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.landing-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7rem;
+}
+
+.hero {
+    font-size: 4rem;
+}
+
+.hero>span {
+    background: linear-gradient(90deg, #ff5f6d, #ffc371);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-sub {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
+.delay-1 { animation-delay: 0.5s; }
+.delay-2 { animation-delay: 1s; }
+.delay-3 { animation-delay: 1.5s; }
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.cta {
+  background: #ff5f6d;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 0 15px #ff5f6d;
+  transition: all 1s , box-shadow 0.2s ease;
+}
+
+.cta:hover {
+  transform: scale(1.25);
+  box-shadow: 0 0 25px #ff5f6d;
+  background: linear-gradient(90deg, #ff5f6d, #ffc371);
+  color: black;
+}
+
+.social-links {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  z-index: 2;
+}
+
+.social-links a {
+  color: #ff5f6d;
+  padding: 0.3rem;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px #ff5f6d50;
+  transition: all 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  width: 42px;
+  height: 42px;
+}
+
+.social-links a:hover,
+.social-links a:focus {
+  background: linear-gradient(90deg, #ff5f6d, #ffc371);
+  color: #0f0f0f;
+  box-shadow: 0 0 20px #ff5f6d;
+  outline: none;
+}
+
+.social-links .icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
