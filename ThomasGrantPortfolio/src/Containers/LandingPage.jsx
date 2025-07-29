@@ -37,7 +37,10 @@ function LandingPage() {
         <p className="fade-in delay-1 hero-sub">
           A curious full-stack developer solving real problems with clean code.
         </p>
-        <button className="cta fade-in delay-2">
+        <button className="cta fade-in delay-2" onClick={() => {
+    const el = document.getElementById("projects");
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  }} >
           View My Work
         </button>
 
