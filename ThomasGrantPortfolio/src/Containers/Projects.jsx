@@ -13,7 +13,7 @@ const projects = () => {
 
         <>
         <div className="projects-wrapper">
-            <h1>Projects</h1>
+            <span className="project-title">Projects</span>
         </div>
         
         </>

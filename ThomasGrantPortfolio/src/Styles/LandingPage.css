@@ -100,13 +100,13 @@
 
 
 .hex-grid {
-  position: fixed; /* Change to absolute to keep at hero section */
+  position: absolute; /* Change to absolute to keep at hero section */
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 20vh;
   pointer-events: none;
-  z-index: -1;
+  z-index: 1;
 }
 
 .hex {
