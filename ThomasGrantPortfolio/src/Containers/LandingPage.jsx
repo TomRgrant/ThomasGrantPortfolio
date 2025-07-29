@@ -6,7 +6,7 @@ function LandingPage() {
 
   useEffect(() => {
     const grid = gridRef.current;
-    const hexCount = window.innerWidth > 500 ? 25 : 14;
+    const hexCount = window.innerWidth > 500 ? 12 : 7;
 
     // Create and append hex elements
     for (let i = 0; i < hexCount; i++) {
