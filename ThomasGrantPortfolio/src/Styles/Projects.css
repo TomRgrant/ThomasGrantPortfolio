@@ -1,5 +1,6 @@
 .projects-wrapper {
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .project-title {
@@ -19,12 +20,13 @@
 }
 
 .projects-card-container {
-  width: 90%;
+  width: 95%;
   display: grid;
   gap: 4rem;
   margin: auto;
   margin-top: 6rem;
   grid-template-columns: repeat(1, 1fr); /* Default: 1 column */
+  background-color: #ff5f6cac;
 }
 
 @media (min-width: 700px) {
@@ -38,3 +40,5 @@
     grid-template-columns: repeat(3, 1fr); /* Desktop: 3 columns */
   }
 }
+
+

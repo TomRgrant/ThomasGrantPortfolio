@@ -1,6 +1,9 @@
 import React from "react";
 import "../Styles/Projects.css";
 import ProjectList from "../Components/ProjectList";
+import ProjectCarousel from "../Components/ProjectCarousel";
+
+import "../Styles/carousel.css";
 
 
 const projects = () => {
@@ -16,9 +19,7 @@ const projects = () => {
         <div className="projects-wrapper" id="projects">
             <h1 className="title-wrapper"><span className="project-title">Projects</span></h1>
 
-            <div className="projects-card-container">
-                <ProjectList />
-            </div>
+            <ProjectCarousel className="carousel"/>
         </div>
         
         </>

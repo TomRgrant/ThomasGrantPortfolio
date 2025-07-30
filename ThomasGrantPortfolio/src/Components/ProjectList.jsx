@@ -7,6 +7,9 @@ import ss4 from "../assets/ss4.jpeg";
 
 import "../Styles/ProjectList.css";
 
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
 const ProjectList = () => {
 
 
@@ -74,7 +77,7 @@ const skills = [
 
 ]
 
- 
+
 
 const skillNodes = skills.map((skill, index) => {
 
@@ -118,6 +121,7 @@ const skillNodes = skills.map((skill, index) => {
     return (
 
         <>
+        
         {skillNodes}
         </>
 

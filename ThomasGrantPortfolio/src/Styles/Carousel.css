@@ -1,0 +1,70 @@
+/* Container that wraps the entire carousel */
+.carousel-container {
+  width: 100% !important;
+  box-sizing: border-box;
+
+}
+
+/* Each individual slide item */
+.carousel-slide {
+    margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+
+/* Card inside each slide */
+.carousel-slide > div {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-sizing: border-box;
+  padding-bottom: 2rem;
+}
+
+.carousel-slide > div:hover {
+}
+
+/* Image inside each card */
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Title and tagline */
+.carousel-slide h3 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.carousel-slide p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Carousel dots */
+.custom-dot-list-style {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.caro-overflow {
+  overflow-x: hidden;
+}
+
+.carousel-wrapper {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
