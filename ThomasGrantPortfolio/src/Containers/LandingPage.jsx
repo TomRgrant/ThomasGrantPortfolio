@@ -5,10 +5,14 @@ function LandingPage() {
   const gridRef = useRef(null);
 
   useEffect(() => {
-    const grid = gridRef.current;
+  const grid = gridRef.current;
+
+  function createHexes() {
+    // Clear any old hexes
+    grid.innerHTML = '';
+
     const hexCount = window.innerWidth > 500 ? 12 : 7;
 
-    // Create and append hex elements
     for (let i = 0; i < hexCount; i++) {
       const hex = document.createElement('div');
       hex.classList.add('hex');
@@ -19,16 +23,24 @@ function LandingPage() {
       hex.style.height = `${20 + Math.random() * 20}px`;
       grid.appendChild(hex);
     }
+  }
 
+  createHexes();
 
-  }, []);
+  // Add a resize listener
+  window.addEventListener('resize', createHexes);
+
+  return () => {
+    window.removeEventListener('resize', createHexes);
+  };
+}, []);
+
 
 
 
   return (
     <>
-      {/* Hex Grid Overlay */}
-      <div className="hex-grid" id="hexGrid" ref={gridRef}></div>
+      
 
       <div className="landing-wrapper">
         <h1 className="hero fade-in">
@@ -68,6 +80,8 @@ function LandingPage() {
             </svg>
           </a>
         </div>
+        {/* Hex Grid Overlay */}
+      <div className="hex-grid" id="hexGrid" ref={gridRef}></div>
       </div>
     </>
   );

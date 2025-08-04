@@ -17,7 +17,7 @@ const projects = () => {
 
         <>
         <div className="projects-wrapper" id="projects">
-            <h1 className="title-wrapper"><span className="project-title">Projects</span></h1>
+            <h1 className="title-wrapper"><span className="project-title">Project Showcase</span></h1>
 
             <ProjectCarousel className="carousel"/>
         </div>

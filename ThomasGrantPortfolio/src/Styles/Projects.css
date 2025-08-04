@@ -7,7 +7,7 @@
     background: linear-gradient(90deg, #ff5f6d, #ffc371);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 5rem;
+  font-size: 2rem;
     text-align: center;
     margin-top: 1.5rem;
 }
@@ -17,28 +17,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    
 }
-
-.projects-card-container {
-  width: 95%;
-  display: grid;
-  gap: 4rem;
-  margin: auto;
-  margin-top: 6rem;
-  grid-template-columns: repeat(1, 1fr); /* Default: 1 column */
-  background-color: #ff5f6cac;
-}
-
-@media (min-width: 700px) {
-  .projects-card-container {
-    grid-template-columns: repeat(2, 1fr); /* Tablet: 2 columns */
-  }
-}
-
-@media (min-width: 1000px) {
-  .projects-card-container {
-    grid-template-columns: repeat(3, 1fr); /* Desktop: 3 columns */
-  }
-}
-
 
