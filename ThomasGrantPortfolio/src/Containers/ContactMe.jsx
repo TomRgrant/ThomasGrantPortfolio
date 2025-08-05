@@ -11,7 +11,7 @@ const ContactMe = () => {
           name="contact"
           method="POST"
           data-netlify="true"
-          netfliy
+          netlify
         >
           <input
             type="text"
