@@ -23,6 +23,7 @@ const ProjectCards = ({ projects }) => {
                     </div>
 
                     <p>{project.description}</p>
+                    <p>{project.desc2}</p>
 
                     <div className="project-buttons">
                         <button>View More</button>

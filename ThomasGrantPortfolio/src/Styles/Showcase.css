@@ -1,16 +1,17 @@
 .card-wrapper {
     display: flex;
     margin: 5rem;
+    margin-top: 0;
     flex-direction: row-reverse;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .left {
-    width: 40%;
+    width: 55%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
-    padding: 0 1.5rem 0rem 1.5rem;
+    margin-left: 4rem;
 }
 
 .left>h1>span {
@@ -18,17 +19,20 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 4rem;
+  padding: 0;
+  margin: 0;
 }
 
 .left>p {
-    margin-top: 3rem;
+    margin-top: 2rem;
     line-height: 1.6;
-  margin-bottom: 1em;
-  font-family: system-ui, sans-serif;
+  max-width: 100ch;
 }
 
 .left>h1 {
+    margin: 0;
     margin-bottom: 0.5rem;
+    padding: 0;
 }
 
 .project-buttons>button {
@@ -41,7 +45,7 @@
   cursor: pointer;
   box-shadow: 0 0 15px #ff5f6d;
   transition: all 1s , box-shadow 0.2s ease;
-  margin-top: 5rem;
+  margin-top: 1.5rem;
 }
 
 .project-buttons>button:hover {
@@ -52,13 +56,12 @@
 }
 
 .project-buttons {
-    display: flex;
-    gap: 3rem;
     
 }
 
 .right {
-    width: 60%;
+    width: 45%;
+    
 }
 
 .project-img {
