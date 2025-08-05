@@ -2,9 +2,9 @@ import React from "react";
 
 import "../Styles/Projects.css";
 
-import ss1 from "../assets/ss1.jpeg";
-import ss2 from "../assets/ss2.png";
-import ss3 from "../assets/ss3.jpg";
+import snorkel from "../assets/mindblank.png";
+import mindblank from "../assets/mindblank.png";
+import pokemon from "../assets/pokemon.png";
 
 import ProjecCards from "../Components/ProjectCards";
 
@@ -12,10 +12,34 @@ const ProjectPage = () => {
 
 
     const projects = [
-        {title: "Project One", type: "Web Development", description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sus Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis tristique mi sed maximus. Duis finibus tortor lorem. Donec iaculis turpis dolor, non ornare tortor rhoncus ac.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis tristique mi sed maximus. Duis finibus tortor lorem. Donec iaculis turpis dolor, non ornare tortor rhoncus ac.`,
-            desc2:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis tristique mi sed maximus. Duis finibus tortor lorem. Donec iaculis turpis dolor, non ornare tortor rhoncus ac.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse iaculis tristique mi sed maximus. Duis finibus tortor lorem. Donec iaculis turpis dolor, non ornare tortor rhoncus ac.`, img:ss1, tags: ["HTML", "CSS", "JavaScript"]},
-        {title: "Project Two", type: "Mobile App", description: "This is a description of project two.", img: ss2},
-        {title: "Project Three", type: "Game Development", description: "This is a description of project three.", img: ss3},
+        {
+  "title": "Snorkel Trails",
+  "type": "Full Stack Web App",
+  "description": "Built as a two-week capstone project during CodeClan, Snorkel Trails is a full stack app developed with React and Java. It helps users discover snorkelling spots around Scotland using an interactive map, with filters for amenities, accessibility, skill level, and local sea life. I worked closely with another developer to bring the idea to life from scratch, including integrating a live, Scotland-specific weather and tide API — even reaching out directly to the provider to secure access.",
+  "desc2": "This project was a great chance to put full stack skills into practice while learning how to collaborate effectively, solve real-world problems, and work under tight deadlines. I also built a sea life reference page so users could see what marine life to expect at each location, adding an extra layer of detail and usefulness to the app.",
+  "img": pokemon,
+  "tags": ["React", "Java", "Spring Boot", "REST APIs", "Map Integration", "Team Project"]
+},
+{
+  "title": "Mind Blank",
+  "type": "Team Web App",
+  "description": "Mind Blank is a trivia quiz game built in one week as part of a team project with three other developers. Players can choose question categories and difficulty levels, making it a fun and flexible way to test your knowledge. My main contributions were building the interactive timer bar and implementing the category selection system, while also taking on a key role as a bug fixer throughout development.",
+  "desc2": "This project was a great opportunity to work closely with a team under tight deadlines, taking ownership of specific features while supporting others wherever needed. It gave me the chance to grow my problem-solving skills and contribute to a polished final product, all while learning to adapt quickly in a fast-paced dev cycle.",
+  "img": mindblank,
+  "tags": ["JavaScript", "React", "Team Project", "Trivia Game", "UI Components", "Problem Solving"]
+},
+{
+  "title": "Who's That Pokémon?",
+  "type": "Solo Web App",
+  "description": "This project was my very first solo build at CodeClan, created over a weekend as part of a self-directed challenge to explore APIs. I chose the PokéAPI and built a web-based game inspired by the classic 'Who's That Pokémon?' format. The app randomly selects a Pokémon and presents it to the user. Players can either take a guess or reveal the correct answer, and the app also includes a skip option to move on. It’s a simple but engaging concept that let me explore API data in a fun, interactive way.",
+  "desc2": "The real value of this project was how much I learned in such a short time. It was my first time working with external APIs independently, while still getting to grips with React and the overall component-based structure. I had to figure out how to handle asynchronous data, manage user interactions, and structure my code clearly — all without leaning on a team. It boosted my confidence in debugging and problem-solving, and showed me how much I enjoy turning data into interactive user experiences.",
+  "img": pokemon,
+  "tags": ["React", "JavaScript", "APIs", "Solo Project", "PokéAPI", "Async Data", "Beginner Friendly"]
+}
+
+
+
+
 
     ]
 

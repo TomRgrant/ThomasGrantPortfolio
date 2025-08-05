@@ -8,7 +8,7 @@ const ProjectCards = ({ projects }) => {
         
         const tagsNodes = project.tags?.map((tag, tagIndex) => (
             <div className="tag" key={tagIndex}>
-                {tag}
+                <p className="tag">{tag}</p>
             </div>
         ));
 

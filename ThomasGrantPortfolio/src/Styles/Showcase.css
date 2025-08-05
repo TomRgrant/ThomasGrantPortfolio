@@ -4,6 +4,7 @@
     margin-top: 0;
     flex-direction: row-reverse;
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    align-items: space-between;
 }
 
 .left {
@@ -12,6 +13,8 @@
     flex-direction: column;
     align-items: flex-start;
     margin-left: 4rem;
+    aspect-ratio: 16/9;
+    justify-content: center;
 }
 
 .left>h1>span {
@@ -26,7 +29,8 @@
 .left>p {
     margin-top: 2rem;
     line-height: 1.6;
-  max-width: 100ch;
+  max-width: 90ch;
+  font-size: 1.3rem;
 }
 
 .left>h1 {
@@ -61,7 +65,9 @@
 
 .right {
     width: 45%;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .project-img {
@@ -99,4 +105,16 @@
     width: 12px;
     border-radius: 50%;
     background-color: rgb(248, 206, 71);
+}
+
+.tags {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tag{
+   background-color: #201c1c;
+   margin: 0;
+   padding: .2rem;
+   border-radius: 10px;
 }
