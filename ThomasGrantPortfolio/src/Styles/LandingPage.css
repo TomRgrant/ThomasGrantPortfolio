@@ -129,3 +129,58 @@
     opacity: 0;
   }
 }
+
+
+
+/* Small devices (phones) */
+@media (max-width: 600px) {
+  .landing-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero {
+
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-sub {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .cta {
+    font-size: 0.9rem;
+    padding: 0.75rem 1.5rem;
+    box-shadow: 0 0 10px #ff5f6d;
+  }
+
+  .cta:hover {
+    transform: scale(1.1);
+  }
+
+  .social-links {
+    gap: 1rem;
+  }
+
+  .social-links a {
+    width: 36px;
+    height: 36px;
+  }
+
+  .social-links .icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .hex-grid {
+    height: 15vh;
+  }
+
+  .hex {
+    animation-duration: 10s;
+  }
+}
+
