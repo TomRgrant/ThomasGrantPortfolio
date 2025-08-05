@@ -4,6 +4,7 @@ import LandingPage from './Containers/LandingPage'
 import Projects from './Containers/ProjectPage'
 import AboutMe from './Containers/AboutMe'
 import ContactMe from './Containers/ContactMe'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Projects/>
       <AboutMe />
       <ContactMe />
+      <Footer />
     </>
   )
 }
