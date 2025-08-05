@@ -11,8 +11,12 @@ const ContactMe = () => {
           name="contact"
           method="POST"
           data-netlify="true"
-          netlify
+          netlify-honeypot="bot-field"
         >
+          {/* Hidden inputs required for Netlify */}
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="bot-field" />
+
           <input
             type="text"
             name="name"
