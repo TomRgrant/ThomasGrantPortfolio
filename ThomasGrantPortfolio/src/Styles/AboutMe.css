@@ -1,0 +1,106 @@
+.about-me-wrapper {
+  max-width: 1100px;
+  margin: 5rem auto;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(25, 25, 25, 0.9), rgba(35, 35, 35, 0.8));
+  border-left: 6px solid #ff5f6d;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(6px);
+  transition: transform 0.3s ease;
+}
+
+.about-me-wrapper:hover {
+  transform: translateY(-5px);
+}
+
+.about-me-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ff5f6d;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.about-me-title::after {
+  content: "";
+  display: block;
+  margin: 0.5rem auto 0;
+  width: 60px;
+  height: 3px;
+  background: #ff5f6d;
+  border-radius: 2px;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.85;
+  color: #dddddd;
+  max-width: 100%;
+}
+
+.about-section.left-image {
+  flex-direction: row;
+}
+
+.about-section.right-image {
+  flex-direction: row;
+}
+
+.about-section.left-image .side-img,
+.about-section.right-image .side-img {
+  width: 420px;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.about-section p {
+  flex: 1;
+  margin: 0;
+}
+
+.about-section.no-image {
+  display: block;
+  max-width: 100%;
+  font-size: 1.3rem;
+  line-height: 1.85;
+  color: #dddddd;
+  margin-bottom: 0;
+  padding: 0 1rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .about-section,
+  .about-section.left-image,
+  .about-section.right-image {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .about-section.left-image .side-img,
+  .about-section.right-image .side-img {
+    width: 220px !important;
+    aspect-ratio: 1 / 1 !important;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+  }
+
+  .about-section.no-image {
+    padding: 0 0.5rem;
+  }
+}
+
+.pfp-adjust {
+  object-position: center top;
+
+
+}

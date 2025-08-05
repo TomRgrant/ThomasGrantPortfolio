@@ -10,46 +10,45 @@ const ProjectCards = ({ projects }) => {
     ));
 
     return (
-      <div className="card-wrapper" key={index}>
-        <div className="left">
-          <h1><span>{project.title}</span></h1>
-          <h3>{project.type}</h3>
+  <div className="card-wrapper fade-in" key={index}>
+    <div className="left">
+      <h1><span>{project.title}</span></h1>
+      <h3>{project.type}</h3>
 
-          <div className="tags">
-            {tagsNodes}
-          </div>
-
-          <p>{project.description}</p>
-          <p>{project.desc2}</p>
-
-          <div className="project-buttons">
-            <button>View More</button>
-          </div>
-        </div>
-
-        <div className="right">
-  <div className="screen-frame">
-    <div className="fake-browser">
-      <div className="fake-window">
-        <div className="traffic-lights">
-          <div className="red" />
-          <div className="yellow" />
-          <div className="green" />
-        </div>
-        <div className="title">{project.title}</div>
+      <div className="tags">
+        {tagsNodes}
       </div>
-      <img
-        className="project-img"
-        src={project.img}
-        alt={`${project.title} screenshot`}
-      />
+
+      <p>{project.description}</p>
+      <p>{project.desc2}</p>
+
+      <div className="project-buttons">
+        <button>View More</button>
+      </div>
+    </div>
+
+    <div className="right">
+      <div className="screen-frame">
+        <div className="fake-browser">
+          <div className="fake-window">
+            <div className="traffic-lights">
+              <div className="red" />
+              <div className="yellow" />
+              <div className="green" />
+            </div>
+            <div className="title">{project.title}</div>
+          </div>
+          <img
+            className="project-img"
+            src={project.img}
+            alt={`${project.title} screenshot`}
+          />
+        </div>
+      </div>
     </div>
   </div>
-</div>
+);
 
-
-      </div>
-    );
   });
 
   return <>{projectNodes}</>;
