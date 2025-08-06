@@ -19,7 +19,7 @@ const ProjectPage = () => {
   "desc2": "This project was a great chance to put full stack skills into practice while learning how to collaborate effectively, solve real-world problems, and work under tight deadlines. I also built a sea life reference page so users could see what marine life to expect at each location, adding an extra layer of detail and usefulness to the app.",
   "img": snorkel,
   "tags": ["React", "Java", "Spring Boot", "REST APIs", "Map Integration", "Team Project"],
-  "code":"",
+  "code":"https://github.com/TomRgrant/SnorkelTrails",
   "demo":""
 },
 {
@@ -29,7 +29,7 @@ const ProjectPage = () => {
   "desc2": "This project was a great opportunity to work closely with a team under tight deadlines, taking ownership of specific features while supporting others wherever needed. It gave me the chance to grow my problem-solving skills and contribute to a polished final product, all while learning to adapt quickly in a fast-paced dev cycle.",
   "img": mindblank,
   "tags": ["JavaScript", "React", "Team Project", "Trivia Game", "UI Components", "Problem Solving"],
-  "code":"",
+  "code":"https://github.com/TomRgrant/Mind-Blank",
   "demo":"https://www.youtube.com/watch?v=a67F0SbpY6g"
 },
 {
@@ -39,7 +39,7 @@ const ProjectPage = () => {
   "desc2": "The real value of this project was how much I learned in such a short time. It was my first time working with external APIs independently, while still getting to grips with React and the overall component-based structure. I had to figure out how to handle asynchronous data, manage user interactions, and structure my code clearly — all without leaning on a team. It boosted my confidence in debugging and problem-solving, and showed me how much I enjoy turning data into interactive user experiences.",
   "img": pokemon,
   "tags": ["React", "JavaScript", "APIs", "Solo Project", "PokéAPI", "Async Data", "Beginner Friendly"],
-  "code":"",
+  "code":"https://github.com/TomRgrant/Pokemon-api-weekend-hw",
   "demo":"https://tomrgrant.github.io/Pokemon-api-weekend-hw/"
 }
 
