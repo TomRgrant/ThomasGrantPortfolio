@@ -47,7 +47,7 @@ function LandingPage() {
           Hi, I'm <span>Thomas Grant</span>
         </h1>
         <p className="fade-in delay-1 hero-sub">
-          A curious full-stack developer solving real problems with clean code.
+          I tackle challenges, learn on the fly, and create better solutions.
         </p>
         <button className="cta fade-in delay-2" onClick={() => {
     const el = document.getElementById("projects");
