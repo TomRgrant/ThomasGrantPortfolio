@@ -2,9 +2,9 @@ import React from "react";
 
 import "../Styles/Projects.css";
 
-import snorkel from "../assets/mindblank.png";
-import mindblank from "../assets/mindblank.png";
-import pokemon from "../assets/pokemon.png";
+import snorkel from "../assets/snorkel_trails.webp";
+import mindblank from "../assets/mindblank.webp";
+import pokemon from "../assets/pokemon.webp";
 
 import ProjecCards from "../Components/ProjectCards";
 
@@ -17,7 +17,7 @@ const ProjectPage = () => {
   "type": "Full Stack Web App",
   "description": "Built as a two-week capstone project during CodeClan, Snorkel Trails is a full stack app developed with React and Java. It helps users discover snorkelling spots around Scotland using an interactive map, with filters for amenities, accessibility, skill level, and local sea life. I worked closely with another developer to bring the idea to life from scratch, including integrating a live, Scotland-specific weather and tide API — even reaching out directly to the provider to secure access.",
   "desc2": "This project was a great chance to put full stack skills into practice while learning how to collaborate effectively, solve real-world problems, and work under tight deadlines. I also built a sea life reference page so users could see what marine life to expect at each location, adding an extra layer of detail and usefulness to the app.",
-  "img": pokemon,
+  "img": snorkel,
   "tags": ["React", "Java", "Spring Boot", "REST APIs", "Map Integration", "Team Project"],
   "code":"",
   "demo":""
