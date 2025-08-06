@@ -1,0 +1,30 @@
+.social-sidebar {
+  position: fixed;
+  bottom: 2rem;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+}
+
+.social-sidebar a {
+  color: #ff5f6d;
+  margin: 0.3rem 0;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-sidebar a:hover,
+.social-sidebar a:focus {
+  color: #ffc371;
+  outline: none;
+}
+
+.social-sidebar .line {
+  width: 1px;
+  height: 60px;
+  background-color: #ff5f6d;
+  margin-top: 0.5rem;
+}
