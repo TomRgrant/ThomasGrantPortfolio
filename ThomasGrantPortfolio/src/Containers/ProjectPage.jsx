@@ -15,33 +15,35 @@ const ProjectPage = () => {
         {
   "title": "Snorkel Trails",
   "type": "Full Stack Web App",
-  "description": "Built as a two-week capstone project during CodeClan, Snorkel Trails is a full stack app developed with React and Java. It helps users discover snorkelling spots around Scotland using an interactive map, with filters for amenities, accessibility, skill level, and local sea life. I worked closely with another developer to bring the idea to life from scratch, including integrating a live, Scotland-specific weather and tide API — even reaching out directly to the provider to secure access.",
-  "desc2": "This project was a great chance to put full stack skills into practice while learning how to collaborate effectively, solve real-world problems, and work under tight deadlines. I also built a sea life reference page so users could see what marine life to expect at each location, adding an extra layer of detail and usefulness to the app.",
+  "description": "Snorkel Trails is a full stack web app built over two weeks as a CodeClan capstone project, using React and Java. It helps users discover snorkelling locations across Scotland via an interactive map with filters for amenities, accessibility, skill level, and marine life. I worked closely with another developer to bring the idea to life from the ground up, including securing access to a live, Scotland-specific tide and weather API by directly contacting the provider.",
+  "desc2": "This project was a great opportunity to apply full stack development skills in a real-world setting. I gained hands-on experience in collaborative planning, solving API integration challenges, and working to tight deadlines. We also created a detailed marine life reference page so users could see what species to expect at each site, adding useful and engaging context to the app.",
   "img": snorkel,
-  "tags": ["React", "Java", "Spring Boot", "REST APIs", "Map Integration", "Team Project"],
-  "code":"https://github.com/TomRgrant/SnorkelTrails",
-  "demo":""
+  "tags": ["React", "Java", "REST API Integration", "Interactive Map", "Collaborative Development", "Accessibility"],
+  "code": "https://github.com/TomRgrant/SnorkelTrails",
+  "demo": ""
 },
 {
   "title": "Mind Blank",
   "type": "Team Web App",
-  "description": "Mind Blank is a trivia quiz game built in one week as part of a team project with three other developers. Players can choose question categories and difficulty levels, making it a fun and flexible way to test your knowledge. My main contributions were building the interactive timer bar and implementing the category selection system, while also taking on a key role as a bug fixer throughout development.",
-  "desc2": "This project was a great opportunity to work closely with a team under tight deadlines, taking ownership of specific features while supporting others wherever needed. It gave me the chance to grow my problem-solving skills and contribute to a polished final product, all while learning to adapt quickly in a fast-paced dev cycle.",
+  "description": "Mind Blank is a fast-paced trivia quiz game built in one week as part of a team project with three other developers. Players can select categories and difficulty levels, making it a customisable and engaging experience. I focused on building the interactive timer bar and the category selection system. I also took on a key role in debugging and supporting team members across the codebase.",
+  "desc2": "This project was a valuable chance to collaborate under pressure, take ownership of key features, and adapt quickly during a rapid development sprint. I strengthened my problem-solving skills and contributed to a polished, playable final product while working closely with a team to manage scope, fix bugs, and maintain momentum.",
   "img": mindblank,
-  "tags": ["JavaScript", "React", "Team Project", "Trivia Game", "UI Components", "Problem Solving"],
-  "code":"https://github.com/TomRgrant/Mind-Blank",
-  "demo":"https://www.youtube.com/watch?v=a67F0SbpY6g"
+  "tags": ["React", "JavaScript", "Team Collaboration", "Game Logic", "UI/UX", "Component Design", "Debugging"],
+  "code": "https://github.com/TomRgrant/Mind-Blank",
+  "demo": "https://www.youtube.com/watch?v=a67F0SbpY6g"
 },
 {
   "title": "Who's That Pokémon?",
   "type": "Solo Web App",
-  "description": "This project was my very first solo build at CodeClan, created over a weekend as part of a self-directed challenge to explore APIs. I chose the PokéAPI and built a web-based game inspired by the classic 'Who's That Pokémon?' format. The app randomly selects a Pokémon and presents it to the user. Players can either take a guess or reveal the correct answer, and the app also includes a skip option to move on. It’s a simple but engaging concept that let me explore API data in a fun, interactive way.",
-  "desc2": "The real value of this project was how much I learned in such a short time. It was my first time working with external APIs independently, while still getting to grips with React and the overall component-based structure. I had to figure out how to handle asynchronous data, manage user interactions, and structure my code clearly — all without leaning on a team. It boosted my confidence in debugging and problem-solving, and showed me how much I enjoy turning data into interactive user experiences.",
+  "description": "Built over a weekend as my first solo project at CodeClan, this app is a web-based take on the classic 'Who's That Pokémon?' game. It uses the PokéAPI to randomly select a Pokémon and challenges the user to guess its identity. Players can reveal the answer, skip to a new Pokémon, or try again. It’s a simple, interactive project designed to explore external APIs and build confidence when working with live data.",
+  "desc2": "This was my first experience working independently with APIs and handling asynchronous data in React. I learned how to structure a component-based app, manage state, and respond to user input, all within a short solo sprint. It helped solidify my understanding of frontend logic and debugging, and showed me how to create smooth, interactive user experiences using real-world data.",
   "img": pokemon,
-  "tags": ["React", "JavaScript", "APIs", "Solo Project", "PokéAPI", "Async Data", "Beginner Friendly"],
-  "code":"https://github.com/TomRgrant/Pokemon-api-weekend-hw",
-  "demo":"https://tomrgrant.github.io/Pokemon-api-weekend-hw/"
+  "tags": ["React", "JavaScript", "External APIs", "Async Data Handling", "Solo Project", "Frontend Development", "PokéAPI"],
+  "code": "https://github.com/TomRgrant/Pokemon-api-weekend-hw",
+  "demo": "https://tomrgrant.github.io/Pokemon-api-weekend-hw/"
 }
+
+
 
 
 
