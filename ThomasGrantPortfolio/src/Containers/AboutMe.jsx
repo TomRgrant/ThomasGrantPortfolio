@@ -12,30 +12,32 @@ const AboutMe = () => {
       <div className="about-section left-image">
         <img src={pfp} alt="Tom's Profile" className="side-img pfp-adjust" />
         <p>
-          I began my developer journey at CodeClan, focusing mainly on React and front-end development.
-          CodeClan strongly emphasized self-learning and collaboration, bringing together people from diverse
-          backgrounds. This experience taught me how to adapt quickly and get the best results from working
-          with different teams and perspectives.
-        </p>
-      </div>
+    I began my developer journey at CodeClan, where I focused on React and front-end development.
+    The bootcamp emphasised self-directed learning and close team collaboration, exposing me to diverse perspectives
+    and fast-paced problem-solving. It taught me how to adapt quickly and deliver results in a team setting.
+  </p>
+</div>
 
-      <div className="about-section right-image">
-        <p>
-          After graduating, I landed a role at a company using the Microsoft tech stack—including PowerApps,
-          Power Automate, SharePoint, and Azure—technologies I hadn’t worked with before. Working closely
-          with my manager, I took on the challenge of learning these tools independently through hands-on
-          problem-solving and experimentation.
-        </p>
-        <img src={CC} alt="Coding Setup" className="side-img" />
-      </div>
+<div className="about-section right-image">
+  <p>
+    After graduating, I joined a company using the Microsoft tech stack including PowerApps, Power Automate,
+    SharePoint, and Azure, none of which I had worked with before. With some support from my manager, I quickly picked up
+    these tools through hands-on problem-solving and self-driven experimentation.
+  </p>
+  <img src={CC} alt="Coding Setup" className="side-img" />
+</div>
 
-      <div className="about-section no-image">
-        <p>
-          Within a year, when my manager left, I became the sole developer on the team. Since then, I’ve
-          continued to thrive as a solo developer, delivering practical solutions and constantly improving my
-          skills. One of my proudest achievements was creating an in-house solution that saved the company
-          around £15,000 by eliminating the need for costly third-party software.
-        </p>
+<div className="about-section no-image">
+  <p>
+    Within a year, my manager left, and I stepped up as the sole developer on the team. Since then, I’ve thrived in
+    the role, independently delivering practical solutions and constantly developing my skills. One highlight was
+    building an in-house tool that saved the company around £15,000 by replacing the need for costly third-party
+    software.
+  </p>
+  <p>
+    I’m now looking for opportunities where I can continue building meaningful tools, grow as a developer,
+    and contribute to a collaborative team.
+  </p>
       </div>
     </div>
   );
