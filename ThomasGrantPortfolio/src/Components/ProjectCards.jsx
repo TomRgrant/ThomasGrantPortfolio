@@ -23,7 +23,8 @@ const ProjectCards = ({ projects }) => {
       <p>{project.desc2}</p>
 
       <div className="project-buttons">
-        <button>View More</button>
+        <a href={project.demo} target="blank"><button>Source Code</button></a>
+        <a href={project.demo} target="blank" style={{ display: project.demo ? "inline-block" : "none" }}><button>Demo</button></a>
       </div>
     </div>
 

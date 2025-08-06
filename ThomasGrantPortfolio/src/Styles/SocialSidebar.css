@@ -28,3 +28,9 @@
   background-color: #ff5f6d;
   margin-top: 0.5rem;
 }
+
+@media (max-width: 768px) {
+  .social-sidebar {
+  display: none;
+}
+}
