@@ -149,6 +149,8 @@
   .hero-sub {
     font-size: 1rem;
     text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .cta {
