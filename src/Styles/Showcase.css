@@ -167,8 +167,10 @@
     .right {
         width: 100%;
         margin-bottom: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+    }
+
+    .right>img {
+        width: 90%;
     }
 
     .left {
